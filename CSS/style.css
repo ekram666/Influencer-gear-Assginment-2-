@@ -23,7 +23,7 @@
 body{
     font-family: 'Poppins', sans-serif; 
     margin: 50px;
-    
+    background-color: ;
 }
 .container{
     display: flex;
@@ -31,11 +31,17 @@ body{
     justify-content: center;
     margin: 50px;
 }
-.con-paragraph{
-   
-    
+.first-part{
+    justify-content: center;
+
 }
-.btn-prebook{
+.heading-part{
+    margin-top: -10px;
+}
+.con-paragraph{
+    text: wrap;
+}
+.btn-part{
     text-decoration: none;
     background-color: rgba(236, 21, 121, 0.993);
     color: white;
@@ -44,11 +50,29 @@ body{
     font-weight: 300;
     padding: 5px;
 }
+.camera{
+    background-image: url(images/Circle-design.svg);
+}
 .camera img{
     
     width: 300px;
-    background-color: whitesmoke;
-    border-radius: 150px;
     
 }
+.all-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 1%;
+    margin: 10%;
+    border: whitesmoke;
+}
+.section-title{
+    text-align: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.collection{}
+
 
